@@ -1,0 +1,36 @@
+# Exclude Cargo's build output
+/target
+/db
+/assets
+
+# Exclude dependency directory
+/.cargo
+
+# Exclude local configuration files
+*.rs.bk
+*.log
+
+# Exclude files not needed in the image
+.git
+.gitignore
+Dockerfile
+.dockerignore
+
+# Exclude documentation files
+README.md
+LICENSE
+
+# Exclude any IDE/editor configuration files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Exclude files for Rust's package manager
+Cargo.lock
+
+
+# Exclude other build artifacts or caches
+*.tmp
+*.bak
+*.old

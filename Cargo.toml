@@ -1,0 +1,30 @@
+[package]
+name = "tinycache"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.133"
+chrono = { version = "0.4", features = ["serde"] }
+colored = "2.0.0"
+rand = "0.8"
+sha2 = "0.10"
+regex = "1.11.1"
+uuid = {version = "1.11.0", features = ["v4"]}
+dirs = "5.0"
+argon2 = "0.5.3"
+toml = "0.8.19"
+dialoguer = "0.11.0"
+num_cpus = "1.16.0"
+libc = "0.2.169"
+clap = "4.5.30"
+dotenv = "0.15.0"
+ring = "0.17.14"
+hex = "0.4.3"
+base64 = "0.22.1"
+dashmap = "6.1.0"
+hnsw = "0.11.0"
+space = "0.18.0"
+log = "0.4.27"
